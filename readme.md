@@ -239,6 +239,9 @@ git remote -v
 # Push branch to remote
 git push -u origin branch-name
 
+# First-time push: Set upstream & push new-branch-name to GitHub
+git push --set-upstream origin new-branch-name
+
 # Pull latest changes from remote
 git pull
 ```
