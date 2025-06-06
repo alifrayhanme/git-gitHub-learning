@@ -1,4 +1,5 @@
 I am first line.
 I am second line.
 feature-1
+try create merge conflict
 write something on feature-1 branch
