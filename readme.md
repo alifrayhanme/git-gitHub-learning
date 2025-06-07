@@ -86,6 +86,18 @@ git add .
 
 ---
 
+## 🔍 Compare Changes
+
+```bash
+# See unstaged changes
+git diff
+
+# See staged changes
+git diff --cached
+```
+
+---
+
 ## 💾 Committing Changes
 
 ```bash
