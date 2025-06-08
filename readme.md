@@ -276,14 +276,4 @@ git pull
 
 ---
 
-## 🔍 Compare Changes
-
-```bash
-# See unstaged changes
-git diff
-
-# See staged changes
-git diff --cached
-```
-
 
