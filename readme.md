@@ -94,6 +94,16 @@ git diff
 
 # See staged changes
 git diff --cached
+
+# See difference between local and remote branch
+git diff main origin/main
+
+# List only the changed file names between local and remote
+git diff --name-only main origin/main
+
+# See difference of a specific file between local and remote
+git diff main origin/main -- path/to/file
+
 ```
 
 ---
@@ -128,6 +138,10 @@ git reflog
 
 # View condensed one-line history
 git log --oneline
+
+# Show commits that are in remote (origin/main) but not in local (main)
+git log main..origin/main
+
 ```
 
 ---
@@ -275,6 +289,7 @@ git push -u origin branch-name
 
 # First-time push: Set upstream & push new-branch-name to GitHub
 git push --set-upstream origin new-branch-name
+
 
 ```
 
