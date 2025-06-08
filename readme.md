@@ -264,14 +264,18 @@ git remote add origin https://github.com/user/repo.git
 # View remote URLs
 git remote -v
 
+# Fetch latest changes from remote (does NOT merge)
+git fetch
+
+# Pull latest changes from remote and merge
+git pull
+
 # Push branch to remote
 git push -u origin branch-name
 
 # First-time push: Set upstream & push new-branch-name to GitHub
 git push --set-upstream origin new-branch-name
 
-# Pull latest changes from remote
-git pull
 ```
 
 ---
