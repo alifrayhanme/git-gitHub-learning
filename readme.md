@@ -107,6 +107,16 @@ git commit -m "Your meaningful message"
 
 ---
 
+## 👁️‍🗨️ Viewing Specific Commits
+
+```bash
+# Show details of a specific commit (diff, message, etc.)
+git show <commit-id>
+
+```
+
+---
+
 ## 📜 Viewing Commit History
 
 ```bash
@@ -127,6 +137,12 @@ git log --oneline
 ```bash
 # Reset to a specific commit (DANGEROUS: deletes history!)
 git reset --hard <commit-id>
+
+# Revert a specific commit (SAFE: creates a new commit that undoes changes)
+git revert <commit-id>
+
+# Checkout(Exploring) a specific commit (detached HEAD state)
+git checkout <commit-id>
 ```
 
 ---
